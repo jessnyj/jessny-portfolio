@@ -14,7 +14,7 @@
 
 ## Deployed Link
 
-* [See Live Site] ()
+* [See Live Site] (https://jessnyj.github.io/jessny-portfolio/)
 
 ## Work Involved
 
