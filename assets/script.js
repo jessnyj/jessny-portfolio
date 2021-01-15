@@ -1,4 +1,6 @@
-function displayProject() {`
+// Project Page
+function displayProject() {
+    $("#display-project").append(`
 <div class="row expanded collapse">
     <div class="column">
         <div class="large-article-header">
@@ -24,6 +26,23 @@ function displayProject() {`
         </div>
     </div>
 </div>
-`}
+`)}
 
 
+
+
+// Event Listeners
+
+// ProjectButton
+$("#projectButton").on("click", function(event){
+    event.preventDefault();
+    displayProject();
+});
+
+// About Button
+
+
+
+
+
+// Resume Button
