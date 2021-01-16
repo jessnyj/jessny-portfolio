@@ -80,6 +80,7 @@ function displayAboutMe() {
 $("#projectButton").on("click", function(event){
     event.preventDefault();
     $("#display-about").empty();
+    $("#display-first-page").empty();
     displayProject();
 
 });
@@ -88,6 +89,7 @@ $("#projectButton").on("click", function(event){
 // About Button
 $("#aboutButton").on("click", function(event) {
     event.preventDefault();
+    $("#display-first-page").empty();
     $("#display-project").empty();
     displayAboutMe();
 });
