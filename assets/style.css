@@ -130,7 +130,7 @@
 
   
 
-  /* Project Header Picture */
+  /* Project 1 Header Picture */
 .large-article-header {
     background: url("project1.png") no-repeat center;
     background-size: cover;
@@ -175,8 +175,8 @@
     }
   }
   
-/* Deployed link button */
 
+/* Deployed link button project 1 */
 .button-rounded-hover {
     border: 0;
     border-radius: 5000px;
@@ -233,8 +233,14 @@
     opacity: 0.25;
   }
   
-  h1 {
+  /* Project one title */
+  #titleProjectOne {
       margin-top: 20px;
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
+  }
+
+  #project1About {
+      margin-left: 40px;
+      margin-right: 40px;
   }
