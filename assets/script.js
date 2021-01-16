@@ -4,31 +4,18 @@ function displayProject() {
 <div class="row expanded collapse">
     <div class="column">
         <div class="large-article-header">
-            <div class="large-article-header-content">
-                <div class="center-container">
-                    <div class="article-date">
-                        <p>Published on Jan 12, 2016</p>
-                    </div>
-                    <div class="article-title">
-                        <h1>A Great Big Article Title Goes Here</h1>
-                    </div>
-                    <div class="article-details">
-                        <div class="article-author">
-                            <img src="https://unsplash.it/50/50?image=1005" alt="" />
-                            <a href="#">Jane Austen</a>
-                        </div>
-                        <div class="article-comments">
-                            <a href="#"><i class="fa fa-comment" aria-hidden="true"></i> 3 Comments</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="large-article-header-content">    
             </div>
         </div>
     </div>
 </div>
 `)}
 
-
+// function displayResume () {(`
+//     <a target="_blank">
+//     img src="./assets/Resume.pdf"
+//     </a>
+// `)}
 
 
 // Event Listeners
@@ -39,10 +26,17 @@ $("#projectButton").on("click", function(event){
     displayProject();
 });
 
+
+// Resume Button
+// $("#resumeButton").on("click", function(event){
+//     event.preventDefault();
+//     displayResume();
+// })
+
+
 // About Button
 
 
 
 
 
-// Resume Button
