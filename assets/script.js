@@ -34,14 +34,15 @@ function displayProject() {
 
 function displayAboutMe() {
     $("#display-about").append(`
-    <div class="about-the-author">
-        <h3 class="author-title">About Me</h3>
-             <div class="row">
-                <div class="small-12 medium-4 columns">
-                <div class="author-image">
-                    <img src="./assets/jessny-grad.png" alt="Jessny">
-                </div>
-             <div class="author-social">
+     
+<div class="about-the-author">
+<h3 class="author-title">About Me</h3>
+<div class="row">
+    <div class="small-12 medium-4 columns">
+        <div class="author-image">
+            <img src="./assets/jessny-grad.png" alt="Jessny">
+        </div>
+        <div class="author-social">
             <a href="https://github.com/jessnyj">
                 <span class="fa-stack fa-lg github">
                     <i class="fa fa-circle fa-stack-2x"></i>
@@ -54,21 +55,21 @@ function displayAboutMe() {
                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
             </a>
-      </div>
+        </div>
     </div>
-        <div class="small-12 medium-8 columns">
-            <h4 class="separator-left">Jessny Joseph</h4>
-            <p id="email">jessnyjoseph@gmail.com</p>
-            <p id="number">702-683-0580</p>
-            <p id="textabout">Hi, im Jessny! I am a full stack web developer certified
+    <div class="small-12 medium-8 columns">
+        <h4 class="separator-left">Jessny Joseph</h4>
+        <p id="email">jessnyjoseph@gmail.com</p>
+        <p id="number">702-683-0580</p>
+        <p id="textabout">Hi, im Jessny! I am a full stack web developer certified
             from UC Berkeley Extension. My interest in technology began in undergrad
             where I studied Biochemistry and Business. As my passion for both subjects
             grew, I became eager to combine both interests and was introduced into the field
             of technology. I believe that coding will allow me to achieve my goal of being an
             entrepreneur in the field of science, and I am eager to be apart of this new field. Please
             feel free to contact me with any questions.</p>
-        </div>
     </div>
+</div>
 </div>
     
  `)}
