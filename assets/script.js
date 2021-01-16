@@ -21,7 +21,8 @@ function displayProject() {
     <p id="workAbout">This calendar application allows a user to view what
     the current day is, has color coded time blocks to display whether it is 
     past, present, or future, and allows a user to enter and save events. </p>
-
+    <a class="deployedHw" target="_blank" href="https://jessnyj.github.io/work-day-scheduler/">Deployed Site</a>
+    <a class="githubHw" target="_blank" href="https://github.com/jessnyj/work-day-scheduler">Github Repository</a>
 
 `)}
 
