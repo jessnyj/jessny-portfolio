@@ -1,7 +1,8 @@
 # jessny-portfolio
 
 ## Site Picture
-![Site]()
+![Site](./assets/portfolio-site.png)
+![Site](./assets/portfolio-about.png)
 
 ## Technologies Used
 
