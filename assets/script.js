@@ -7,15 +7,12 @@ function displayProject() {
             <div class="large-article-header-content">    
             </div>
         </div>
+        <h1>What's for Dinner?</h1>
+        <a class="button button-rounded-hover">Deployed Site</a>
     </div>
 </div>
 `)}
 
-// function displayResume () {(`
-//     <a target="_blank">
-//     img src="./assets/Resume.pdf"
-//     </a>
-// `)}
 
 
 // Event Listeners
@@ -25,13 +22,6 @@ $("#projectButton").on("click", function(event){
     event.preventDefault();
     displayProject();
 });
-
-
-// Resume Button
-// $("#resumeButton").on("click", function(event){
-//     event.preventDefault();
-//     displayResume();
-// })
 
 
 // About Button
