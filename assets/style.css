@@ -305,4 +305,15 @@
     margin-right: .25rem;
   }
   
-  
+  /* first page */
+  #jessny {
+      margin-top: 60px;
+      margin-left: 15%;
+      font-weight: bold;
+  }
+
+#starter-text {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: large;
+}

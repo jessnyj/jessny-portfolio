@@ -94,8 +94,10 @@ $("#aboutButton").on("click", function(event) {
     displayAboutMe();
 });
 
-
-
-
-
+// Home Button
+$("#homeButton").on("click", function(event) {
+    event.preventDefault();
+    $("#display-project").empty();
+    $("#display-about").empty();
+});
         
