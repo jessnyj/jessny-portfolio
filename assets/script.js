@@ -17,9 +17,13 @@ function displayProject() {
     </div>
 </div>
 <br>
-<div>
-<img src="" alt="Girl in a jacket" style="width:500px;height:600px;">
-</div>
+    <div>
+        <img src="./assets/work-day.png" alt="Work Day Scheduler style="width:500px;height:600px;">
+    </div>
+    <h1 id="titleWork">Work Day Scheduler</h1>
+    <p id="workAbout">This calendar application allows a user to view what
+    the current day is, has color coded time blocks to display whether it is 
+    past, present, or future, and allows a user to enter and save events. </p>
 
 
 `)}
