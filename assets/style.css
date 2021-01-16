@@ -20,6 +20,7 @@
   
   .topbar-responsive .menu a {
     color: black;
+    font-size: large;
     transition: color 0.15s ease-in;
   }
   
@@ -33,17 +34,17 @@
     }
   }
   
-   /* .topbar-responsive .menu .topbar-responsive-button {
+   .topbar-responsive .menu .topbar-responsive-button {
     color: #fefefe;
     border-color: #fefefe;
     border-radius: 5000px;
     transition: color 0.15s ease-in, border-color 0.15s ease-in;
   }  */
 
-  /* .topbar-responsive .menu .topbar-responsive-button:hover {
+  .topbar-responsive .menu .topbar-responsive-button:hover {
     color: #c6d1d8;
     border-color: #c6d1d8;
-  }  */
+  } 
   
  @media screen and (max-width: 39.9375em) {
     .topbar-responsive .menu .topbar-responsive-button {
@@ -131,7 +132,7 @@
   
 
 /* Deployed link button project 1 */
-.button-rounded-hover {
+/* .button-rounded-hover {
     border: 0;
     border-radius: 5000px;
     padding: 1rem 2rem;
@@ -142,6 +143,7 @@
     background-color: black;
     margin-left: 37%;
     margin-top: 2%;
+    display: inline-block;
     letter-spacing: 2px;
     transition: all 0.35s ease;
     -webkit-transform: translateZ(0);
@@ -185,7 +187,7 @@
         -ms-transform: translateX(0%);
             transform: translateX(0%);
     opacity: 0.25;
-  }
+  } */
   
   /* Project one title */
   #titleProjectOne , #titleWork{
@@ -196,6 +198,7 @@
 
   #project1About , #workAbout {
       margin-left: 40px;
+      font-size: 18px;
       margin-right: 40px;
   }
 
@@ -249,20 +252,12 @@
     display: inline-block;
   }
   
-  .about-the-author .author-social .fa-stack.facebook {
-    color: #4c70ba;
+  .about-the-author .author-social .fa-stack.github{
+    color: #f64a8a;
   }
   
-  .about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
-    color: #3b5998;
-  }
-  
-  .about-the-author .author-social .fa-stack.twitter {
-    color: #83c3f3;
-  }
-  
-  .about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
-    color: #55acee;
+  .about-the-author .author-social .fa-stack.github:hover, .about-the-author .author-social .fa-stack.github:focus {
+    color: pink;
   }
   
   .about-the-author .author-social .fa-stack.linkedin {
@@ -275,6 +270,39 @@
   
   .about-the-author .author-image {
     border: 1px solid #cacaca;
+  }
+  
+
+
+/* Project Buttons */
+
+.social {
+    margin-right: .25rem;
+  }
+  
+  .social.github {
+    background-color: #000000;
+    color: #fefefe;
+  }
+  
+  .social.github:hover, .social.github:focus {
+    background-color: black;
+    color: #fefefe;
+  }
+  
+  .social.link {
+    background-color: #32506d;
+    color: #fefefe;
+  }
+  
+  .social.link:hover, .social.link:focus {
+    background-color: #284057;
+    color: #fefefe;
+  }
+  
+  .link > .fa {
+    color: #fefefe;
+    margin-right: .25rem;
   }
   
   
