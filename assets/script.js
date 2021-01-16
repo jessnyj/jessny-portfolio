@@ -74,6 +74,10 @@ function displayAboutMe() {
     
  `)}
 
+ function displayFirstPage(){
+    $("#display-first-page")
+ }
+
 // Event Listeners
 
 // ProjectButton
@@ -99,5 +103,6 @@ $("#homeButton").on("click", function(event) {
     event.preventDefault();
     $("#display-project").empty();
     $("#display-about").empty();
+    displayFirstPage();
 });
         
