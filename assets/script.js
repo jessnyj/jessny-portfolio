@@ -68,13 +68,16 @@ function displayAboutMe() {
 // ProjectButton
 $("#projectButton").on("click", function(event){
     event.preventDefault();
+    $("#display-about").empty();
     displayProject();
+
 });
 
 
 // About Button
 $("#aboutButton").on("click", function(event) {
     event.preventDefault();
+    $("#display-project").empty();
     displayAboutMe();
 });
 
