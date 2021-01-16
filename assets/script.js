@@ -1,12 +1,9 @@
 // Project Page
 function displayProject() {
     $("#display-project").append(`
-<div class="row expanded collapse">
-    <div class="column">
-        <div class="large-article-header">
-            <div class="large-article-header-content">    
-            </div>
-        </div>
+    <div>
+    <img src="./assets/project1.png" alt="Work Day Scheduler style="width:500px;height:600px;">
+    </div>
         <h1 id="titleProjectOne">What's for Dinner?</h1>
         <p id="project1About">This application allows a user to decide what they would like to eat for dinner. 
         With a random recipe generator, a recipe search bar, or a form to search

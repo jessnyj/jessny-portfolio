@@ -130,52 +130,6 @@
 
   
 
-  /* Project 1 Header Picture */
-.large-article-header {
-    background: url("project1.png") no-repeat center;
-    background-size: cover;
-    height: 39.25rem;
-    position: relative;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .large-article-header {
-      height: 20.83333rem;
-    }
-  }
-  
-  .large-article-header-content {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: absolute;
-    bottom: 3.125rem;
-    left: 0;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 40.9375em) {
-    .large-article-header-content {
-      bottom: 1.25rem;
-    }
-  }
-  
-  .large-article-header-content .center-container {
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  @media screen and (max-width: 39.9375em) {
-    .large-article-header-content .center-container {
-      width: 100%;
-      padding: 0 1.25rem;
-    }
-  }
-  
-
 /* Deployed link button project 1 */
 .button-rounded-hover {
     border: 0;
@@ -234,13 +188,15 @@
   }
   
   /* Project one title */
-  #titleProjectOne {
+  #titleProjectOne , #titleWork{
       margin-top: 20px;
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
   }
 
-  #project1About {
+  #project1About , #workAbout {
       margin-left: 40px;
       margin-right: 40px;
   }
+
+
