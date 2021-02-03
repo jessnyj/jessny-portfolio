@@ -16,25 +16,22 @@ function displayProject() {
         <a href="https://github.com/vubao2303/Project-1" class="button social link">
             <i class="fa fa-link" aria-hidden="true"></i> Deployed Link 
         </a>
-      
     </section>
 <br>
     <div>
-        <img src="./assets/work-day.png" alt="Work Day Scheduler style="width:500px;height:300px;">
+        <img src="./assets/site-burger.png" alt="Burger Eater style="width:500px;height:300px;">
     </div>
     <section>
-        <h1 id="titleWork">Work Day Scheduler</h1>
-        <p id="workAbout">This calendar application allows a user to view what
-        the current day is, has color coded time blocks to display whether it is 
-        past, present, or future, and allows a user to enter and save events. </p>
-      <a class="deployedHw" target="_blank" href="https://jessnyj.github.io/work-day-scheduler/">Deployed Site</a>
-        <a class="githubHw" target="_blank" href="https://github.com/jessnyj/work-day-scheduler">Github Repository</a>
+        <h1 id="titleBurger">Eat the Burger</h1>
+        <p id="burgerAbout">This application is a fun burger logger! You can add your favorite burger, and decide whether you want to devour it or if you aren't hungry you can change your mind. </p>
+        <a class="deployedBurger" target="_blank" href="https://burger-eater70.herokuapp.com/">Deployed Site</a>
+        <a class="githubBurger" target="_blank" href="https://github.com/jessnyj/burger">Github Repository</a>
     </section>
-`)}
+`)
+}
 
 function displayAboutMe() {
     $("#display-about").append(`
-     
 <div class="about-the-author">
 <h3 class="author-title">About Me</h3>
 <div class="row">
@@ -72,16 +69,17 @@ function displayAboutMe() {
 </div>
 </div>
     
- `)}
+`)
+}
 
- function displayFirstPage(){
+function displayFirstPage() {
     $("#display-first-page")
- }
+}
 
 // Event Listeners
 
 // ProjectButton
-$("#projectButton").on("click", function(event){
+$("#projectButton").on("click", function (event) {
     event.preventDefault();
     $("#display-about").empty();
     $("#display-first-page").empty();
@@ -91,7 +89,7 @@ $("#projectButton").on("click", function(event){
 
 
 // About Button
-$("#aboutButton").on("click", function(event) {
+$("#aboutButton").on("click", function (event) {
     event.preventDefault();
     $("#display-first-page").empty();
     $("#display-project").empty();
@@ -99,10 +97,9 @@ $("#aboutButton").on("click", function(event) {
 });
 
 // Home Button
-$("#homeButton").on("click", function(event) {
+$("#homeButton").on("click", function (event) {
     event.preventDefault();
     $("#display-project").empty();
     $("#display-about").empty();
     displayFirstPage();
 });
-        
